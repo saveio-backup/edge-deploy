@@ -1,0 +1,1 @@
+./edge sector getsectorsfornode --walletAddr=$1

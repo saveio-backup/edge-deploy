@@ -1,0 +1,72 @@
+{
+	"Base": {
+		"BaseDir": ".",
+		"LogPath": "./Log/",
+		"LogMaxSize": 5242880,
+		"ChainId": "1",
+		"BlockTime": 5,
+		"NetworkId": 777,
+		"PublicIP": "",
+		"IntranetIP": "",
+		"PortBase": 20000,
+		"LogLevel": 0,
+		"LocalRpcPortOffset": 238,
+		"EnableLocalRpc": true,
+		"JsonRpcPortOffset": 236,
+		"EnableJsonRpc": true,
+		"HttpRestPortOffset": 235,
+		"HttpCertPath": "",
+		"HttpKeyPath": "",
+		"RestEnable": true,
+		"WsPortOffset": 239,
+		"WsCertPath": "",
+		"WsKeyPath": "",
+		"ChannelPortOffset": 3005,
+		"ChannelProtocol": "tcp",
+		"DBPath": "./DB",
+		"ChainRestAddrs": [
+			"http://127.0.0.1:20334"
+		],
+		"ChainRpcAddrs": [
+			"http://127.0.0.1:20336"
+		],
+		"NATProxyServerAddrs": "",
+		"DspProtocol": "tcp",
+		"DspPortOffset": 4001,
+		"TrackerNetworkId": 779,
+		"TrackerProtocol": "tcp",
+		"TrackerPortOffset": 237,
+		"ProfilePortOffset": 232,
+		"WalletDir": "./keystore.dat",
+		"PlotPath": "./plots"
+	},
+	"Fs": {
+		"FsRepoRoot": "./FS",
+		"FsFileRoot": "./Downloads",
+		"FsType": 1,
+		"FsGCPeriod": "1h",
+		"FsMaxStorage": "1000G",
+		"EnableBackup": false
+	},
+	"Dsp": {
+		"BlockConfirm": 1,
+		"ChannelClientType": "rpc",
+		"ChannelRevealTimeout": "20",
+		"ChannelSettleTimeout": "50",
+		"BlockDelay": "3",
+		"MaxUnpaidPayment": 5,
+		"AutoSetupDNSEnable": false,
+		"DnsNodeMaxNum": 100,
+		"DnsChannelDeposit": 1000000000,
+		"DNSWalletAddrs": [],
+		"HealthCheckDNS": false,
+		"SeedInterval": 600,
+		"Trackers": [],
+		"MaxUploadTask": 10000,
+		"MaxDownloadTask": 10000,
+		"MaxShareTask": 10000,
+		"DownloadFree": false,
+		"AllowLocalNode": true
+	},
+	"Bootstraps": null
+}

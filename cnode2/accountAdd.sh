@@ -1,0 +1,1 @@
+./edge account add -d
